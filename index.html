@@ -2,5 +2,92 @@
 <html>
 <body>
 <h2 style="text-align:center;color:#333399;"> ISCS </h2>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1200px, initial-scale=0.3, minimum-scale=0.3, maximum-scale=1.0, user-scalable=yes" />    
+<title>Events-detail</title>
+<link href="/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/css/edetail.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/pretreatment.js" type="text/javascript"></script>
+</head>
+<body>
+<!-- 页头 -->
+<div id="header">
+    	<div class="top comwidth">
+        	<div class="logo"><a href="/en">
+            	<img src="/images/home/logo.png" alt="logo"/></a>
+            </div>
+            <div class="version">
+            	<ul>
+                	<li class="active"><a href="/en">English</a></li>
+                    <li><a href="http://www.csrc.ac.cn/zh/">简体中文</a></li>
+                </ul>   
+            </div>
+            <div class="searchbox">
+		<form name="sch" method="get" action="/e/sch/index.php" target="_blank"><input type="hidden" name="field" value="0">
+			<input type="text" name="keyboard"><input type="hidden" name="show" value="title,content"><input type="hidden" name="classid" value="123,105,106,107,108,109,122">
+                     <div class="search">
+				<button class="btn-find" type="submit"></button>
+                     </div>
+		</form>
+	    </div>
+        </div>
+<!--nav开始-->
+        <div class="nav comwidth">
+
+        <script src="/js/nav.js" type="text/javascript"></script>
+ 
+           <ul>
+		<li><a href="/en/about_csrc/">About CSRC</a></li><li><a href="/en/divisions/">Divisions</a></li><li><a href="/en/people/">People</a></li><li><a href="/en/collaboration/">Collaboration</a></li><li><a href="/en/career/">Career</a></li><li><a href="/en/education/">Education</a></li><li><a href="/en/facility/">Facilities</a></li><li><a href="/en/event/">Events</a></li><li><a href="/en/news/">News</a></li>            </ul>
+        </div>
+ <!--nav结束-->
+</div>
+
+<a id="回到顶部" href="#">   <img src="/images/up.png" /></a>
+        <div class="navbar">
+	        <div class="navbar_left"></div>
+	        <div class="navbar_middle">
+		        <ul>
+			      <a href="/en/">Home</a>&nbsp;>&nbsp;<a href="/en/event/">Events</a>&nbsp;>&nbsp;<a href="/en/event/schools/">Schools</a>		        </ul>
+	        </div>
+	        <div class="navbar_right"></div>
+        </div>
+
+	<div class="wrap" id="a">
+		<div id="main">
+		<div class="title">CSRC 2015 Summer School on HPC Parallel Computing</div>
+            <div class="content">
+ 
+                    <div class="abstract">
+                    	<dl>
+                        <dt>Content</dt>
+                            <div class="line">
+                            </div>
+                            <dd><p style="TEXT-ALIGN: justify">Lectures with hand-on workshop will be given by IBM research scientist Dr. Leopold Grinberg with assistant Yu-Hang Tang from Applied Mathematics, Brown University.</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Audience: </strong>CSRC faculty and researchers with interest in high performance scientific computing.</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Registration:</strong> Please send your registration (your name and division) to Ms. Ying Fan, <a href="mailto:fanying@csrc.ac.cn">fanying@csrc.ac.cn</a>&nbsp;</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Objective of school:</strong> The four days summer school will focus on fundamentals of parallel&nbsp;computing on CPUs and GPUs.&nbsp;</p><p><strong><span style="font-size:15px"><br/></span></strong></p><p style="text-align: left;"><strong><span style="font-size:15px">Daily schedule: &nbsp; &nbsp;&nbsp;</span></strong></p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;8:30am-10:00am,&nbsp;1st class</p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10:00am-10:30am, Coffee tea break</p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10:30am-12:00pm, 2nd Class</p><p style="text-align: left;">&nbsp;</p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12:00pm-2:00pm, lunch break</p><p style="text-align: left;">&nbsp;</p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2:00pm-3:30pm, 1st class</p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3:30pm-4:00pm, coffee tea break</p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4:00pm-5:00pm, 2nd Class</p><p style="text-align: left;">&nbsp;</p><p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;6:00pm, dinner</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Lecture outline:</strong></p><p style="TEXT-ALIGN: justify">Day 1 (June 23, 2015)</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Overview of the major components of compute nodes(CPUs,&nbsp;&nbsp;accelerators, memory, hierarchy, caches etc.)</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Roof line model and its use in computational kernel analysis</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Introduction into shared and distributed memory models.</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Fine grain and coarse grain parallelism.</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; OpenMP: hands-on tutorials.</p><p style="TEXT-ALIGN: justify">Day 2 (June 24, 2015)</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Parallel computing: distributed memory model.</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Message Passing Interface(MPI)</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; MPI: hands-on</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Hybrid (distributed and shared memory) programming model.</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; MPI+OpenMP: hands-on</p><p style="TEXT-ALIGN: justify">Day 3 (June 25, 2015)&nbsp;</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Overview of GPU architecture</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; CUDA</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Use of libraries (cuBLAS, cuSPARSE, THRUST)</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Programming with CUDA: &nbsp;hands-on &nbsp;&nbsp;</p><p style="TEXT-ALIGN: justify">Day 4 (June 26, 2015)&nbsp;</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; GPU memory hierarchy</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; GPU kernel optimization &nbsp;</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Programming with CUDA: &nbsp;hands-on</p><p style="TEXT-ALIGN: justify">&nbsp; &nbsp; Concluding remarks</p><p style="TEXT-ALIGN: justify">&nbsp;</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Bio-sketch of Lecturers:<br/></strong></p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Dr. Leopold Grinberg: </strong>&nbsp;Dr. Grinberg is a research scientist at IBM research since 2013, his area of expertise is massively parallel solvers including molecular dynamics, CFD, seismic, and more. He focuses on algorithms, solver optimization, improving node performance, scaling (MPI, OpenMP), IO and hybrid CPU-GPU computing.&nbsp;</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify">Education • Ph.D. Applied Mathematics, Brown University, USA, 2009.</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify">Research &nbsp;Interests &nbsp;• &nbsp;Parallel &nbsp;computing &nbsp;with &nbsp;MPI, &nbsp;OpenMP &nbsp;(and &nbsp;hybrid), &nbsp;• &nbsp;Scaling &nbsp;(strong)&nbsp;applications to O(100K) CPU cores • Design and programming solvers using multilayer task and&nbsp;&nbsp;data &nbsp;parallelism, &nbsp;intrinsics,• &nbsp;Languages: &nbsp;C/C++, &nbsp;CUDA, &nbsp;Matlab, &nbsp;Fortran &nbsp;• &nbsp;Platforms: &nbsp;IBM&nbsp;BlueGene, &nbsp;IBM &nbsp;Power, &nbsp;CRAY, &nbsp;Linux &nbsp;Cluster. &nbsp;• &nbsp;High-order &nbsp;spectral/hp &nbsp;methods &nbsp;•&nbsp;Computational Fluid Dynamics • Linear solvers • Biomedical modeling • Cardiovascular Flows •&nbsp;Multiscale flow simulations.&nbsp;</p><p style="TEXT-ALIGN: justify">&nbsp;</p><p style="TEXT-ALIGN: justify"><strong>Personal&nbsp; linkedin page:&nbsp;</strong></p><p style="TEXT-ALIGN: justify"><a href="https://www.linkedin.com/pub/leopold-grinberg/12/66b/651">https://www.linkedin.com/pub/leopold-grinberg/12/66b/651</a></p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Yu-Hang &nbsp;Tang: </strong>&nbsp;Mr. &nbsp;Tang &nbsp;is &nbsp;a &nbsp;Ph.D. &nbsp;candidate &nbsp;with &nbsp;the &nbsp;Division &nbsp;of Applied Mathematics at Brown University. His primary research interests focus &nbsp;on &nbsp;High &nbsp;Performance &nbsp;Computing &nbsp;and &nbsp;concurrent &nbsp;multiscale coupling &nbsp;with &nbsp;applications &nbsp;in &nbsp;modelling &nbsp;soft &nbsp;matter &nbsp;systems &nbsp;and physiological &nbsp;fluids. &nbsp;He &nbsp;is &nbsp;the &nbsp;author &nbsp;of &nbsp;several &nbsp;open-source &nbsp;software packages, including the LAMMPS USERMESO GPU-acclerated package for &nbsp;Dissipative &nbsp;Particle &nbsp;Dynamics &nbsp;(DPD) &nbsp;and &nbsp;Smoothed &nbsp;Particle Hydrodynamics &nbsp;(SPH) &nbsp;simulations, &nbsp;as &nbsp;well &nbsp;as &nbsp;the &nbsp;Multiscale &nbsp;Universal &nbsp;Interface &nbsp;library &nbsp;for coupling &nbsp;standalone &nbsp;solvers &nbsp;to &nbsp;perform &nbsp;multiscale &nbsp;simulations. &nbsp;Those &nbsp;software &nbsp;were &nbsp;used &nbsp;to carry out large-scale in silico investigation of amphiphilic polymer self-assembly using billions of particles. He is a reviewer of the Journal of Computational Science and a NDA member with&nbsp;NVIDIA.</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><strong>Personal&nbsp; linkedin page:&nbsp;</strong></p><p style="TEXT-ALIGN: justify">http://www.dam.brown.edu/dpd/doku.php/yu-hang_tang</p><p style="TEXT-ALIGN: justify"><br/></p><p style="TEXT-ALIGN: justify"><img src="http://www.csrc.ac.cn/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" style="line-height: 16px; white-space: normal; vertical-align: middle; margin-right: 2px;"/><a href="http://www.csrc.ac.cn/upload/file/20150624/1435110687614307.pdf" title="Beijing_L1.pdf" style="line-height: 16px; white-space: normal; font-size: 12px; color: rgb(0, 102, 204);">Slide L1.pdf</a></p><p style="line-height: 16px;"><img style="vertical-align: middle; margin-right: 2px;" src="http://www.csrc.ac.cn/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif"/><a style="font-size:12px; color:#0066cc;" href="/upload/file/20150624/1435110686538843.pdf" title="Beijing-L2-roof_line_model.pdf">Slide-L2-roof_line_model.pdf</a></p><p style="line-height: 16px;"><img style="vertical-align: middle; margin-right: 2px;" src="http://www.csrc.ac.cn/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif"/><a style="font-size:12px; color:#0066cc;" href="/upload/file/20150624/1435110686921019.pdf" title="Beijing-L3-OpenMP.pdf">Slide L3-OpenMP.pdf</a></p><p style="line-height: 16px;"><img style="vertical-align: middle; margin-right: 2px;" src="http://www.csrc.ac.cn/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif"/><a style="font-size:12px; color:#0066cc;" href="/upload/file/20150627/1435372401447830.pdf" title="Beijing-L4-MPI.pdf">Slide-L4-MPI.pdf</a></p><p style="line-height: 16px;"><img style="vertical-align: middle; margin-right: 2px;" src="http://www.csrc.ac.cn/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif"/><a style="font-size:12px; color:#0066cc;" href="/upload/file/20150627/1435372956572087.pdf" title="day1.pdf">Slide-L5-GPU.pdf</a></p><p style="line-height: 16px;"><img style="vertical-align: middle; margin-right: 2px;" src="http://www.csrc.ac.cn/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif"/><a style="font-size:12px; color:#0066cc;" href="/upload/file/20150627/1435373036987765.pdf" title="day2.pdf">Slide-L6-GPU.pdf</a></p><p style="line-height: 16px;"><br/></p><p><br/></p></dd>
+                        </dl>
+                    </div>
+            </div>
+		</div>
+	</div>
+<div id="footer">
+	<div class="copyright">
+		<p>Beijing Computational Science Research Center<br /></p>
+		<address>Zhongguancun Software Park II, No. 10 West Dongbeiwang Road, Haidian District, Beijing 100193, China<br />
+		Tel: 86-10-56981701 <br />
+		E-mail: info[at]csrc.ac.cn<br />
+		Copyright © Beijing Computational Science Research Center All Rights Reserved
+		</address>
+	</div>
+
+</div>
+
+<!-- Page generated at 2015-11-17 09:37:27  -->
+</div>
+</body>
+</html>
+
 </body>
 </html>
