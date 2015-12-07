@@ -1,0 +1,190 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+
+#container {
+	margin: 10px auto;
+    padding: 0;
+    border: 0;
+    width: 980px;
+}
+#banner {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+	text-align: center;
+    width: 100%;
+    height: 115px;
+    background-image: url(swami.png);
+    background-position: 15px 10px, top;
+    background-repeat: no-repeat, no-repeat;
+    background-origin: border-box, border-box;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.banner-title1 {
+    margin-left: 120pt;
+	margin-top: 0;
+	margin-bottom: 4pt;
+    padding-top: 8px;
+	color: #000000;
+	font-size: 12pt;
+    text-shadow: 1px 1px #FFFFFF;
+}
+.banner-title2 {
+    margin-left: 120pt;
+	margin-top: 0;
+	margin-bottom: 7pt;
+	color: #000000;
+	font-size: 16pt;
+    text-shadow: 1px 1px #FFFFFF;
+}
+.banner-address {
+    margin-left: 120pt;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000000;
+	font-size: 12pt;
+}
+
+#navigation {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#menubar {
+    position: relative;
+    display: block;
+    float: left;
+    width: 20%;
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FF9966;
+    font-size: 100%;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-size: 110%;
+    font-weight: bold;
+    float: left;
+    width: 95%;
+}
+.button:hover {
+    text-decoration: underline;
+    color: black;
+}
+.subbutton {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    font-size: 100%;
+    float: right;
+    width: 88%;
+}
+.subbutton:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#content {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: right;
+    width: 74%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #EEEEEE;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+#content h1,h2,h3,h4,h5,h6 {
+    color: #090000;
+}
+#content h2 {
+}
+#content img {
+    padding: 5px;
+}
+#content .content-announce {
+    min-height:100px;
+}
+#content .announce-new {
+    color: #f60018;
+}
+#content .highlight {
+    color: #f60018;
+}
+#content .announce-more {
+    list-style-type: none;
+}
+
+.trackname {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #999999;
+    text-color: #999999;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #999999;
+}
+#footer p {
+    text-color: #999999;
+    margin-top: 5px;
+}
+#footer a {
+    text-color: #999999;
+    text-decoration: none;
+}
+#footer a:hover {
+    text-color: #999999;
+    text-decoration: underline;
+}
+
+.style_bold {
+    font-weight: bold;
+}
