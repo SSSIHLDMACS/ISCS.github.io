@@ -1,54 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html>
 <head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>CGPDD Tutorial</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<style>
-p.paper {
-    margin-top: -5px;
-	font-size: 13px;
-}
-.title {
-    font-weight: bold;
-}
-</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=1200px, initial-scale=0.3, minimum-scale=0.3, maximum-scale=1.0, user-scalable=yes" />    
+<title>GPU tutorial </title>
+<link href="/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/css/edetail.css" rel="stylesheet" type="text/css"/>
+<script src="/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/js/pretreatment.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body bgcolor="ffffcd"> 
+<img align = "left" src="https://cloud.githubusercontent.com/assets/16099374/11537433/f58c0876-9942-11e5-96cb-0b90c44cdf49.png" height = "135" width = "135" alt="Swami"> <br>
+<img align = "right" src="https://cloud.githubusercontent.com/assets/16099374/11537637/f413deb4-9943-11e5-8183-07b85a654c69.jpg" height = "120" width = "120" alt="SSSIHL">
 
-<div id="container">
-    <!-- Begin Header -->
-    <div id="header"></div>
-    <!-- End Header -->
 
-    <!-- Begin Navigation -->
-    <div id="navigation"></div>
-    <!-- End Navigation -->
 
-    <!-- Begin Content -->
-    <div id="content">	
+	<div class="wrap" id="a">
+		<div id="main">
+		<div class="title"><h1 style="text-align:center;color:#333399;"> International Symposium on Computational Science(ISCS) 2015  <h2 style="text-align:center; color:#333399;">Department of Mathematics and Computer Science <br/>Sri Sathya Sai Institute of Higher Learning, Prashanthi Nilayam Campus</h2></h1> </div>
+		<br>
+		<br>
+			
+	<p align="center">
+		<a href="index.html">Home</a> &nbsp | &nbsp
+		<a href="Talks.html" target="_blank"> Talks </a> &nbsp | &nbsp
+		<a href="gpututorial.html" target="_blank"> GPU Tutorial</a> &nbsp | &nbsp
+		<a href="cgpddtutorial.html" target="_blank">CGPDD Tutorial</a> &nbsp | &nbsp
+		<a href="graphtutorial.html" target="_blank">Graph Tutorial</a> &nbsp | &nbsp
+		<a href="Travel.html" target="_blank">Travel Info</a> &nbsp | &nbsp
+		<a href="http://www.sssihl.edu.in" target="_blank"> Official SSSIHL Website </a> &nbsp | &nbsp
 		
-		
-		
-		<div class="title"><h3 style="text-align:left;color:#333399;">TUTORIAL-II: Genomics, Proteomics and Computation Drug Design &nbsp; </h3> </div>
-                <div class="content">
- 
-                    <div class="abstract">
-                    	<dl>
-                        <dt>Content</dt>
-                            <div class="line">
-                          </div>
-      
-      <p><strong>Resource Persons for Lectures and hand-on tutorial:</strong> Ankita Singh (Genomics), Rahul Kaushik (Proteomics) , Abhilash  Jayaraj (Drug Design) from Supercomputing facility for Bio Informatics and Computational Biology, IIT Delhi, New Delhi</p>
-      
-      
-      <p><strong>Objective of tutorial:</strong> The two day tutorial will focus on state of the art techniques on novel gene finding, protein structure prediction and structure based drug discovery&nbsp;
 </p>
-   
-   <div class="title"><h3 style="text-align:left;color:#333399;">12th December 2015 (Day 1)</h3> </div>   
-      
+
+		
+		
+		<div class="title"><h3 style="text-align:left;color:#333399;">Tutorial: Program Optimization on GPUs </h3> </div>
+               
+                            
+                            <dd><p style="TEXT-ALIGN: justify">Lectures with hand-on tutorial will be given by Prof. P Sadayappan, Ohio State University.</p><p style="TEXT-ALIGN: justify">
+<p><strong>Objective of tutorial:</strong> The one day tutorial will focus on performance optimization &nbsp; techniques on GPUs.&nbsp;
+</p>
+
 <table border="2">
 <th>Time</th>
 <th>Sessions</th>
@@ -58,122 +51,98 @@ p.paper {
 <td>8:30 AM- 10:00 AM</td>
 <td>Session I </td>
 <td> <ul>
-	<li>Introduction to genes and genomes</li>
-	<li>Data extraction from NCBI</li>
-	<li>NCBI BLAST: homologue gene finding and result interpretations</li>
-     </ul>
- </td>
+	<li>Quick review of parallel programming with OpenMP</li>
+	<li>Introducing GPU architecture</li>
+	<li>SIMT model </li>
+	<li>Different types of memory on GPU Multidimensional thread space </li>
+     </ul></td>
 </tr>
 
 <tr>
 <td>10:00 AM - 10:30 AM</td>
-<td></td>
-<td><p align="center" color="#ff0000">  <b>Tea Break </b> </p></td>
+<td>Tea Break </td>
+<td> Tea Break</td>
 </tr>
-
-
-
 
 <tr>
 <td>10:30 AM- 12:00 PM</td>
 <td>Session II </td>
 <td> 
 	<ul>
-		<li>ORF finding tools</li>
-		<li>Novel gene finding strategies using different tools</li>
+		<li>GPU performance aspects: </li>
+		<li>Warp scheduling, Memory coalescing to efficient Global memory access</li>
+		<li>Approaches to tolerate memory latency</li>
+		<li>Emphasize the differences in loop optimizations between CPU and GPU </li>
+		<li>(Forms of the loops in the CUDA reverse of OpenMP [stride 1 vs. stride N]), Filling the blanks variety (understand the variety) old exercises. (Different variants of reversing the arrays)</li>
+		<li>Hands-on: simple examples – Hello World GPU example (hello world or some data parallel examples)</li>
+			
 	</ul>
 </td>
 </tr>
 
 <tr>
 <td>12:00 PM- 1:00 PM</td>
-<td></td>
-<td> <p align="center"> <b>Lunch Break </b></p> </td>
+<td>Lunch Break</td>
+<td> Lunch Break</td>
 </tr>
 
 <tr>
 <td>1:00 PM- 2:30 PM</td>
 <td>Session III</td>
-<td>
-	<ul>
-		<li>Introduction of Protein Structure prediction</li>
-		<li>Protein Sequence Database: Data extraction from UniprotKb</li>
-		<li>Protein Secondary Structure Prediction: Present Status and Softwares. </li>
-	</ul>
+<td> Optimizations for Shared memory. (Reuse in shared memory as much as possible). Are these optimizations still crucial considering the CPU like memory hierarchy in recent GPUs
+<b>(1hour lecture + 1/2 hour exercise)</b>
+
  </td>
 </tr>
 
+
 <tr>
 <td>2:30 PM- 3:00 PM</td>
-<td></td>
-<td> <p align="center"> <b>Tea Break </b></p> </td>
+<td>Tea Break</td>
+<td> Tea Break</td>
 </tr>
 
 
 <tr>
 <td>3:00 PM- 4:30 PM</td>
 <td>Session IV </td>
-<td> 
-	<ul> 
-	 	<li>Protein Tertiary Structure Prediction: Online Servers and Standalone Software</li>
-	  	<li>Quality Assessment of Predicted Model Structures</li>
-	  	<li>Protein Structure Visualization and a tour of RCSB PDB </li>
-      	</ul>
+<td> <ul> <li> Thread divergence. </li>
+	  <li> 	simple exercise - stencils. </li>
+	  <li>Do extra work in order to reduce the thread divergence.</li>
+      </ul>
+
 </td>
 </tr>
 
 </table>
-
-
-
-<strong>PS:</strong><b>Mini Project will include novel gene finding, protein structure prediction for a query sequence and active site prediction and docking.</b>
 
 <br> <br><br>
 <strong>Lecture outline:</strong></p><p style="TEXT-ALIGN: justify">
 </strong>
                             			
 <strong> Instructor</strong> </br>
-
-<img align = "left" src="https://cloud.githubusercontent.com/assets/16099374/11606644/8bad9c4a-9b4e-11e5-8271-24f3eb9a4c0b.jpg" height = "125" width = "125" alt="Ankita"> <br>
-<strong>Ms. Ankita Singh</strong>&nbsp;
-<p style="TEXT-ALIGN: justify">PhD. Student, SCFBio, </p>
-<p style="TEXT-ALIGN: justify">Indian Institute of Delhi, New Delhi, India</p>
-
-<br>
-<br>
-<br>
-<img align = "left" src="https://cloud.githubusercontent.com/assets/16099374/11606633/3603071c-9b4e-11e5-9b7e-855e80f7d666.jpg" height = "125" width = "125" alt="Rahul"> <br>
-<strong>Mr. Rahul Kaushik</strong>&nbsp;
-<p style="TEXT-ALIGN: justify">PhD. Student, SCFBio, KSBS </p>
-<p style="TEXT-ALIGN: justify">Indian Institute of Delhi, New Delhi, India</p>
-<br>
-<br>
-<br>
-
-<img align = "left" src="https://cloud.githubusercontent.com/assets/16099374/11606655/be601802-9b4e-11e5-99ce-0fa579302685.jpg" height = "125" width = "125" alt="Abhilash"> <br>
-<strong>Mr. Abhilash Jayaraj</strong>&nbsp;
-<p style="TEXT-ALIGN: justify">PhD. Student, SCFBio,Chemistry</p>
-<p style="TEXT-ALIGN: justify">Indian Institute of Delhi, New Delhi, India</p>
-<br>
-<br>
-<br>
-
-<br/> <br/>
+<img align = "left" src="https://cloud.githubusercontent.com/assets/16099374/11554165/8c423e20-99bb-11e5-8c9c-b67acf48c0ce.jpg" height = "125" width = "125" alt="Swami"> <br>
+<strong><a href="http://web.cse.ohio-state.edu/~saday/" target="_blank">Prof. P Sadayappan </a> </strong>&nbsp;
+<p style="TEXT-ALIGN: justify">Professor, Computer Science & Engineering  </p>
+<p style="TEXT-ALIGN: justify">Ohio State University </p>
 
 
-
-
+       
+<div id="footer">
+	<div class="copyright">
+		<p>Sri Sathya Sai Institute Of Higher Learning<br /></p>
+		<address>Prasanthi Nilayam, Puttaparti 515134, India<br />
+		</address>
+	</div>
 
 </div>
-    <!-- Begin Footer -->
-    <div id="footer"></div>
-    <!-- End Footer -->
+
+<!-- Page generated at 2015-11-17 09:37:27  -->
 </div>
 
-<input id="current-page" type="hidden" value="nav-home"/>
-<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
+
+
+    
 
 </body>
-
 </html>
