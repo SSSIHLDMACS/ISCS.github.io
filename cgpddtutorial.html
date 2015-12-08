@@ -28,18 +28,26 @@ p.paper {
     <!-- End Navigation -->
 
     <!-- Begin Content -->
-    <div id="content">	
-		
-		<div class="title"><h3 style="text-align:left;color:#333399;">Tutorial I: Parallel Programming and Performance Optimization on GPUs.</h3> </div>
-               
-                            
-              	<p style="TEXT-ALIGN: justify">Lectures with hand-on tutorial will be given by <b>Prof. P Sadayappan</b>, Ohio State University and <b> Devi Sudheer Kumar</b>, IBM Research, India.</p> 
-  
+    <div id="content">
+    	
+    		
+    		<div class="title"><h3 style="text-align:left;color:#333399;">TUTORIAL-II: Genomics, Proteomics and Computation Drug Design &nbsp; </h3> </div>
+                <div class="content">
  
-                         
-<p><strong>Objective of tutorial:</strong> The one day tutorial will focus on Parallel Programming and Performance Optimization &nbsp; techniques on GPUs.&nbsp;
+                    <div class="abstract">
+                    	<dl>
+                        <dt>Content</dt>
+                            <div class="line">
+                          </div>
+      
+      <p><strong>Resource Persons for Lectures and hand-on tutorial:</strong> Ankita Singh (Genomics), Rahul Kaushik (Proteomics) , Abhilash  Jayaraj (Drug Design) from Supercomputing facility for Bio Informatics and Computational Biology, IIT Delhi, New Delhi</p>
+      
+      
+      <p><strong>Objective of tutorial:</strong> The two day tutorial will focus on state of the art techniques on novel gene finding, protein structure prediction and structure based drug discovery&nbsp;
 </p>
-<div class="title"><h3 style="text-align:left;color:#333399;">12th December 2015</h3> </div>   
+   
+   <div class="title"><h3 style="text-align:left;color:#333399;">12th December 2015 (Day 1)</h3> </div>   
+      
 <table border="2">
 <th>Time</th>
 <th>Sessions</th>
@@ -49,11 +57,11 @@ p.paper {
 <td>8:30 AM- 10:00 AM</td>
 <td>Session I </td>
 <td> <ul>
-	<li>Review of shared-memory parallel programming with OpenMP</li>
-	<li>Introducing GPU architecture</li>
-	<li>Different types of memory on GPU Multidimensional thread space </li>
-	<li>Introduction to CUDA programming</li>
-     </ul></td>
+	<li>Introduction to genes and genomes</li>
+	<li>Data extraction from NCBI</li>
+	<li>NCBI BLAST: homologue gene finding and result interpretations</li>
+     </ul>
+ </td>
 </tr>
 
 <tr>
@@ -62,23 +70,17 @@ p.paper {
 <td><p align="center" color="#ff0000">  <b>Tea Break </b> </p></td>
 </tr>
 
+
+
+
 <tr>
 <td>10:30 AM- 12:00 PM</td>
 <td>Session II </td>
-<td> <b>1 hour 10 min (lecture) + 20 min (hands-on) </b>
+<td> 
 	<ul>
-		<li>Scheduling and synchronization on GPUs</li>
-		<li>Fundamental factors affecting performance:</li>
-		<ul>
-			<li>Coalesced global memory access</li>
-			<li>Warp occupancy to tolerate global memory latency</li>
-			<li>Contrast in loop optimizations for CPU versus GPU</li>	
-			<li>(Forms of the loops in the CUDA reverse of OpenMP [stride 1 vs. stride N])</li>
-			
-		</ul>	
-		
+		<li>ORF finding tools</li>
+		<li>Novel gene finding strategies using different tools</li>
 	</ul>
-	<b>Hands-on exercises</b>
 </td>
 </tr>
 
@@ -91,13 +93,12 @@ p.paper {
 <tr>
 <td>1:00 PM- 2:30 PM</td>
 <td>Session III</td>
-<td> <b>1hour (lecture) + 30 min (hands-on exercises)</b>
+<td>
 	<ul>
-		<li>GPU performance optimization</li>
-		<li>Reduction of global memory accesses via shared memory or caching Thread coarsening</li>
-		<li>Choice of effective grid/thread-block size/shape Illustrative examples of performance optimization </li>
+		<li>Introduction of Protein Structure prediction</li>
+		<li>Protein Sequence Database: Data extraction from UniprotKb</li>
+		<li>Protein Secondary Structure Prediction: Present Status and Softwares. </li>
 	</ul>
-	<b>Hands-on exercises</b>
  </td>
 </tr>
 
@@ -111,17 +112,89 @@ p.paper {
 <tr>
 <td>3:00 PM- 4:30 PM</td>
 <td>Session IV </td>
-<td>  <b>GPU performance optimization</b>
+<td> 
 	<ul> 
-	 	<li> Minimum Thread divergence. </li>
-	  	<li> Avoiding bank conflicts</li>
-	  	<li>Illustrative examples of performance optimization</li>
+	 	<li>Protein Tertiary Structure Prediction: Online Servers and Standalone Software</li>
+	  	<li>Quality Assessment of Predicted Model Structures</li>
+	  	<li>Protein Structure Visualization and a tour of RCSB PDB </li>
       	</ul>
-	<b>Hands-on exercises</b>
 </td>
 </tr>
 
 </table>
+
+
+   <div class="title"><h3 style="text-align:left;color:#333399;">13th December 2015 (Day 2)</h3> </div>   
+      
+<table border="2">
+<th>Time</th>
+<th>Sessions</th>
+<th>Topic</th>
+
+<tr>
+<td>8:30 AM- 10:00 AM</td>
+<td>Session I </td>
+<td> <ul>
+	<li>Introduction to structure based Drug Design</li>
+	<li>Drugs: their properties and sources </li>
+	<li>The process of drug development</li>
+     </ul>
+ </td>
+</tr>
+
+<tr>
+<td>10:00 AM - 10:30 AM</td>
+<td></td>
+<td><p align="center" color="#ff0000">  <b>Tea Break </b> </p></td>
+</tr>
+
+
+
+
+<tr>
+<td>10:30 AM- 12:00 PM</td>
+<td>Session II </td>
+<td> 
+	<ul>
+		<li>Active site Prediction</li>
+		<li>Virtual screening</li>
+		<li>Docking and scoring</li>
+	</ul>
+</td>
+</tr>
+
+<tr>
+<td>12:00 PM- 1:00 PM</td>
+<td></td>
+<td> <p align="center"> <b>Lunch Break </b></p> </td>
+</tr>
+
+<tr>
+<td>1:00 PM- 2:30 PM</td>
+<td>Session III</td>
+<td>
+	<p align="center"><b> Mini Project </b> </p>
+ </td>
+</tr>
+
+<tr>
+<td>2:30 PM- 3:00 PM</td>
+<td></td>
+<td> <p align="center"> <b>Tea Break </b></p> </td>
+</tr>
+
+
+<tr>
+<td>3:00 PM- 4:30 PM</td>
+<td>Session IV </td>
+<td> 	<p align="center"><b> Mini Project </b> </p>
+</td>
+</tr>
+
+</table>
+
+<strong>PS:</strong><b>Mini Project will include novel gene finding, protein structure prediction for a query sequence and active site prediction and docking.</b>
+		
 
 <br> <br><br>
 <strong>Lecture outline:</strong></p><p style="TEXT-ALIGN: justify">
